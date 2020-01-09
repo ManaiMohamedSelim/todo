@@ -8,18 +8,31 @@ The react project is inside the node project , it's name is "client".
 ```
 todo/
   README.md
+  client/
+    node_modules/
+    public/
+     src/
+       components/
+          oneTodo.js
+          todoList
+       App.css
+       App.js
+       App.test.js
+       index.css
+       index.js
+       logo.svg
+  models/
+    constants.js
+    sequelize.js
+    task.js
   node_modules/
-  package.json
   public/
-    index.html
-    favicon.ico
-  src/
-    App.css
-    App.js
-    App.test.js
-    index.css
+  routes/
     index.js
-    logo.svg
+    users.js
+  views/
+  app.js
+  package.json
 ```
 
 ## Installation
